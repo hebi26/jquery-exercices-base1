@@ -1,9 +1,8 @@
-  $('button2').on('click', function() {
-    $('.texte').show();
+$(document).ready(function(){
+  $("#bouton2").click(function() {
+    $("#texte").show();
   });
-  $('button1').on('click', function() {
-    $('.texte').hide();
+  $("#bouton1").click(function() {
+    $("#texte").hide();
   });
-
-  $(document).ready(main);
-  
+  });
